@@ -33,12 +33,12 @@ public class PasswordUtil {
     private static final String COMMON_PASSWORD_FILE = "commonPasswords100.csv";
 
 // 1000 passwords to crack
-//  private static final String HACKED_DATABASE_FILE = "hackedDatabase1Kx100x1900.csv";
-//  private static final String COMMON_PASSWORD_FILE = "commonPasswords1K.csv";
+//    private static final String HACKED_DATABASE_FILE = "hackedDatabase1Kx100x1900.csv";
+//    private static final String COMMON_PASSWORD_FILE = "commonPasswords1K.csv";
 
 // 10000 passwords to crack
-//  private static final String HACKED_DATABASE_FILE = "hackedDatabase10Kx1Kx19K.csv";
-//  private static final String COMMON_PASSWORD_FILE = "commonPasswords10K.csv";
+//    private static final String HACKED_DATABASE_FILE = "hackedDatabase10Kx1Kx19K.csv";
+//    private static final String COMMON_PASSWORD_FILE = "commonPasswords10K.csv";
 
     /**
      * Checks whether given plaintext password corresponds to a stored salted hash of the password.

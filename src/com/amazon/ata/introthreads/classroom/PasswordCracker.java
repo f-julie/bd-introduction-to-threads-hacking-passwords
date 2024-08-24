@@ -18,8 +18,10 @@ public class PasswordCracker {
 
         long startTime = System.currentTimeMillis();
 
+        // List of all passwords to hash - loaded from a file defined in PasswordUtil
         final List<String> commonPasswords = PasswordUtil.readCommonPasswords();
 
+        // Call generateAll Hashes in the PasswordHasher with the list of passwords
         final Map<String, String> passwordToHashes = PasswordHasher.generateAllHashes(commonPasswords);
 
         PasswordHasher.writePasswordsAndHashes(passwordToHashes);
